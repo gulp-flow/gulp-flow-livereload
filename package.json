@@ -1,0 +1,36 @@
+{
+  "name": "gulp-flow-livereload",
+  "version": "1.0.0",
+  "description": "gulp-flow-livereload bundle for gulp-flow.",
+  "main": "./src/index.js",
+  "keywords": [
+    "gulp",
+    "gulpfriendly",
+    "gulp-flow-bundle",
+    "workflow",
+    "task",
+    "plugin",
+    "bundle",
+    "livereload"
+  ],
+  "homepage": "https://github.com/gulp-flow/gulp-flow-livereload",
+  "author": {
+    "name": "Nicolas Tallefourtane",
+    "url": "http://nicolab.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gulp-flow/gulp-flow-livereload.git"
+  },
+  "bugs": "https://github.com/gulp-flow/gulp-flow-livereload/issues",
+  "dependencies": {
+    "gulp-livereload": "^3.8.1"
+  },
+  "peerDependencies": {
+    "gulp-flow": "1"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
